@@ -2,7 +2,6 @@ body {
     font-family: monospace;
     margin: 20px;
     background-color: #007bff;
-    
 }
 
 h1, h2, h3 {
@@ -25,5 +24,9 @@ p {
 
 img {
     border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
 }
 
+img:hover {
+    transform: scale(1.1); /* Adjust the scale factor for the desired zoom effect */
+}
